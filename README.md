@@ -2,7 +2,9 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/) 
 
-📚 Read the paper <span style="color:red">**TODO: Update the paper link after arXiv link is known.**</span> to learn more about our work ARC Ukiyo-e Faces Dataset. For running scripts in this repo, it is recommended to set up a Python Virtual Environment with Python version >= 3.6 using [conda](https://conda.io/) or [venv](https://docs.python.org/3/library/venv.html), install required dependencies with `pip install -r requirements.txt`. You may also need to  install [PyTorch](https://pytorch.org/get-started/locally/) and [TensorFlow](https://www.tensorflow.org/install).
+📚 Read the paper <span style="color:red">**TODO: Update the paper link after arXiv link is known.**</span> to learn more about our work ARC Ukiyo-e Faces Dataset. The paper is accepted for Twelfth International Conference on Computational Creativity, ICCC’21. 
+
+For running scripts in this repo, it is recommended to set up a Python Virtual Environment with Python version >= 3.6 using [conda](https://conda.io/) or [venv](https://docs.python.org/3/library/venv.html), install required dependencies with `pip install -r requirements.txt`. You may also need to  install [PyTorch](https://pytorch.org/get-started/locally/) and [TensorFlow](https://www.tensorflow.org/install).
 
 ## The Dataset
 
@@ -130,14 +132,14 @@ python3 ./sketchkerras/infer.py                            \
 
 If you use any of our datasets in your work, we would appreciate a reference to our paper:
 
-**Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al. (arxiv link)** 
+**Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al.** 
 
 ```
-@misc{tian2021ukiyoe,
-Author = {Yingtao Tian and Tarin Clanuwat and Chikahiko Suzuki and Asanobu Kitamoto},
-Title = {Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation},
-Year = {2021},
-Eprint = {arXiv:<UPDATE THE ID>},
+@inproceedings{tian2021ukiyoe,
+  Author = {Yingtao Tian and Tarin Clanuwat and Chikahiko Suzuki and Asanobu Kitamoto},
+  Title = {Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation},
+  booktitle  = "Proceedings of the International Conference on Computational Creativity",
+  year  = "2021"
 }
 ```
 
