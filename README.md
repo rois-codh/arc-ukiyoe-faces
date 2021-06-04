@@ -177,17 +177,12 @@ For Ukiyo-e Faces Dataset, please cite and attribute accordingly as [instructed 
 
 ## License and Attribution
 
-Both the dataset itself and the  contents of this repo are licensed under a permissive [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. CC BY-SA 4.0 license requires proper attribution. and we
-would suggest to use the following attribution to the 
+Both the dataset itself and the  contents of this repo are licensed under a permissive [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. CC BY-SA 4.0 license requires proper attribution. We would suggest to use the following attribution to the 
 
+  > "ARC Ukiyo-e Faces Dataset" (created by Yingtao Tian and CODH, NII from ARC, Ritsumeikan University) DOI:10.20676/00000394
 
-<span style="color:red">**TODO: Suzuki-san: Update the DOI once we know it.**</span>
-
-  > "ARC Ukiyo-e Faces Dataset" (created by Yingtao Tian and CODH, NII from ARC, Ritsumeikan University) doi:10.?????/????
-
-We used "ARC Ukiyo-e Collection (ARC所蔵浮世絵データベース)" provided by Art Research Center (ARC),
-Ritsumeikan University via IDR Dataset Service of National Institute of
-Informatics (NII). Please add the following citation [specified by its creator](https://dsc.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=3982&item_no=1&page_id=13&block_id=21) :
+We used "ARC Ukiyo-e Collection (ARC所蔵浮世絵データベース)" provided by Art Research Center (ARC), Ritsumeikan University via IDR Dataset Service of National Institute of Informatics (NII). 
+Please add the following citation [specified by its creator](https://dsc.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=3982&item_no=1&page_id=13&block_id=21) :
 
   > Art Research Center, Ritsumeikan University (2020): ARC Ukiyo-e database. Informatics Research Data Repository, National Institute of informatics. (dataset). https://doi.org/10.32130/rdata.2.1
 
