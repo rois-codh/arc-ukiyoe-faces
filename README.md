@@ -1,6 +1,6 @@
 # ARC Ukiyo-e Faces Dataset
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/) 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) 
 
 📚 Read the paper <span style="color:red">**TODO: Update the paper link after arXiv link is known.**</span> to learn more about our work ARC Ukiyo-e Faces Dataset. The paper is accepted for Twelfth International Conference on Computational Creativity, ICCC’21. 
 
@@ -126,24 +126,6 @@ python3 ./sketchkerras/infer.py                            \
 ```
 
 
-## Citing our dataset
-
-<span style="color:red">**TODO: Update the paper link and bib after arXiv link is known.**</span>
-
-If you use any of our datasets in your work, we would appreciate a reference to our paper:
-
-**Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al.** 
-
-```
-@inproceedings{tian2021ukiyoe,
-  Author = {Yingtao Tian and Tarin Clanuwat and Chikahiko Suzuki and Asanobu Kitamoto},
-  Title = {Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation},
-  booktitle  = "Proceedings of the International Conference on Computational Creativity",
-  year  = "2021"
-}
-```
-
-
 ## Other datasets
 
 Our work can be extended with [Ukiyo-e Faces Dataset](https://www.justinpinkney.com/ukiyoe-dataset/), a publicly available dataset of Ukiyo-e faces extracted from Ukiyo-e images available online.
@@ -175,19 +157,37 @@ python3 face_viz.py                                        \
 For Ukiyo-e Faces Dataset, please cite and attribute accordingly as [instructed by its creator](https://www.justinpinkney.com/ukiyoe-dataset/).
 
 
-## License and Attribution
+## License and Citation
 
-Both the dataset itself and the  contents of this repo are licensed under a permissive [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. CC BY-SA 4.0 license requires proper attribution. We would suggest to use the following attribution to the 
+### License
 
+"ARC Ukiyo-e Faces Dataset" (Created by Yingtao Tian and ROIS-DS CODH; Collected from ARC) is licensed under [Creative Commons Attribution 4.0 International License (CC BY)](https://creativecommons.org/licenses/by-sa/4.0/).
+
+There are a few exceptions: contents under `./fcsc` are adapted from [FSCS code](https://github.com/pfnet-research/FSCS) and therefore are under the original MIT License; contents under `./sketchkerras` are adapted from [sketchKeras code](https://github.com/lllyasviel/sketchKeras) and therefore are under the original Apache License.
+
+### Citation
+
+When you publish your creative work (e.g. paper), the following credit is required under the CC BY license.
+
+**When you use the annotation data**, please cite the following.
   > "ARC Ukiyo-e Faces Dataset" (created by Yingtao Tian and CODH, NII from ARC, Ritsumeikan University) DOI:10.20676/00000394
 
-We used "ARC Ukiyo-e Collection (ARC所蔵浮世絵データベース)" provided by Art Research Center (ARC), Ritsumeikan University via IDR Dataset Service of National Institute of Informatics (NII). 
-Please add the following citation [specified by its creator](https://dsc.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=3982&item_no=1&page_id=13&block_id=21) :
-
+**When you use the metadata or images**, please cite the following in addition to above.
   > Art Research Center, Ritsumeikan University (2020): ARC Ukiyo-e database. Informatics Research Data Repository, National Institute of informatics. (dataset). https://doi.org/10.32130/rdata.2.1
 
-Please also refer to the following licenses for softwares in this repo.
+Here the metadata is distributed within the ARC Ukiyo-e Faces Dataset with a permission from Art Research Center, Ritsumeikan University.
 
-- Contents under `./fcsc` are adapted from [FSCS code](https://github.com/pfnet-research/FSCS) and therefore are under the original MIT License.
+**When you refer to research on the dataset**, please cite the following in addition to above.
 
-- Contents under `./sketchkerras` are adapted from [sketchKeras code](https://github.com/lllyasviel/sketchKeras) and therefore are under the original Apache License.
+<span style="color:red">**TODO: Update the paper link and bib after arXiv link is known.**</span>
+
+*Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al.*
+
+```
+@inproceedings{tian2021ukiyoe,
+  Author = {Yingtao Tian and Tarin Clanuwat and Chikahiko Suzuki and Asanobu Kitamoto},
+  Title = {Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation},
+  booktitle  = "Proceedings of the International Conference on Computational Creativity",
+  year  = "2021"
+}
+```
