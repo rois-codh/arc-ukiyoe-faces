@@ -2,7 +2,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) 
 
-📚 Read the [paper](https://arxiv.org/abs/2002.08595) to learn more about our work ARC Ukiyo-e Faces Dataset. The paper is accepted for Twelfth International Conference on Computational Creativity, ICCC’21. 
+📚 Read the [paper](https://arxiv.org/abs/2106.02267) to learn more about our work ARC Ukiyo-e Faces Dataset. The paper is accepted for Twelfth International Conference on Computational Creativity, ICCC’21. 
 
 For running scripts in this repo, it is recommended to set up a Python Virtual Environment with Python version >= 3.6 using [conda](https://conda.io/) or [venv](https://docs.python.org/3/library/venv.html), install required dependencies with `pip install -r requirements.txt`. You may also need to  install [PyTorch](https://pytorch.org/get-started/locally/) and [TensorFlow](https://www.tensorflow.org/install).
 
@@ -179,7 +179,7 @@ Here the metadata is distributed within the ARC Ukiyo-e Faces Dataset with a per
 
 **When you refer to research on the dataset**, please cite the following in addition to above.
 
-*[Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al.](https://arxiv.org/abs/2002.08595)*
+*[Ukiyo-e Analysis and Creativity with Attribute and Geometry Annotation. Yingtao Tian et al.](https://arxiv.org/abs/2106.02267)*
 
 ```
 @inproceedings{tian2021ukiyoe,
