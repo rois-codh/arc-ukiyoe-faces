@@ -191,4 +191,4 @@ Here the metadata is distributed within the ARC Ukiyo-e Faces Dataset with a per
 
 ## More Information
 
-You can get more information about Digital Ukiyo-e Research in [Ukiyo-e Face Datasets](http://codh.rois.ac.jp/ukiyo-e/face-dataset/"), [ROIS-DS Center for Open Data in the Humanities](http://codh.rois.ac.jp/). 
+You can get more information about digital Ukiyo-e research in [Ukiyo-e Face Datasets](http://codh.rois.ac.jp/ukiyo-e/face-dataset/"), [ROIS-DS Center for Open Data in the Humanities](http://codh.rois.ac.jp/). 
