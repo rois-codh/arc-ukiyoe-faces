@@ -170,10 +170,10 @@ There are a few exceptions: contents under `./fcsc` are adapted from [FSCS code]
 When you publish your creative work (e.g. paper), the following credit is required under the CC BY license.
 
 **When you use the annotation data**, please cite the following.
-  > "ARC Ukiyo-e Faces Dataset" (created by Yingtao Tian and CODH, NII from ARC, Ritsumeikan University) DOI:10.20676/00000394
-
+  > "ARC Ukiyo-e Faces Dataset" (Created by Yingtao Tian, ROIS-DS CODH; Collected from ARC）, [https://doi.org/10.20676/00000394](https://doi.org/10.20676/00000394)
+ 
 **When you use the metadata or images**, please cite the following in addition to above.
-  > Art Research Center, Ritsumeikan University (2020): ARC Ukiyo-e database. Informatics Research Data Repository, National Institute of informatics. (dataset). https://doi.org/10.32130/rdata.2.1
+  > Art Research Center, Ritsumeikan University (2020): ARC Ukiyo-e database. Informatics Research Data Repository, National Institute of informatics. (dataset). [https://doi.org/10.32130/rdata.2.1](https://doi.org/10.32130/rdata.2.1)
 
 Here the metadata is distributed within the ARC Ukiyo-e Faces Dataset with a permission from Art Research Center, Ritsumeikan University.
 
