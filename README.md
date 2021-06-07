@@ -52,7 +52,6 @@ We provide annotations (facial landmarks) for ARC in `resources/arc_face.csv`. T
   The table lists a summary of all landmark locations.
 </p>
 
-
 ## Download the Images 💾
 
 🌟 You can **manually** download ARC Ukiyo-e Collection images by running:
@@ -189,3 +188,7 @@ Here the metadata is distributed within the ARC Ukiyo-e Faces Dataset with a per
   year  = "2021",
 }
 ```
+
+## More Information
+
+You can get more information at [Ukiyo-e Face Datasets](http://codh.rois.ac.jp/ukiyo-e/face-dataset/") in ROIS-DS Center for Open Data in the Humanities. 
