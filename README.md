@@ -114,7 +114,7 @@ python3 ./fscs/infer.py                                    \
 We use [sketchKeras](https://github.com/lllyasviel/sketchKeras) for line sketch extraction.
 A few scripts, adapted from [sketchKeras code](https://github.com/lllyasviel/sketchKeras)], are provided to deal with Ukiyo-e paintings.
 
-🌟 For example, frist download the [officlal pre-trained model](https://github.com/lllyasviel/sketchKeras/releases/tag/0.1) and save it to './sketchkerras/mod.h6'. Then invoke the script as follows.
+🌟 For example, frist download the [officlal pre-trained model](https://github.com/lllyasviel/sketchKeras/releases/tag/0.1) and save it to './sketchkerras/mod.h5'. Then invoke the script as follows.
 
 ```bash
 # Invoke sketchKeras to extract linke sketch from a Ukiyo-e painting.
