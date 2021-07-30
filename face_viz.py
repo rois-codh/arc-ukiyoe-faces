@@ -22,12 +22,12 @@ from face_common import (
 
 
 def face_viz(face_landmarks_df_or_series, images_dir, out_images_dir, force,
-             draw_bounding_box, draw_inferred_box):
+             draw_inferred_box):
     # face_landmarks_df_or_series 's coodinates must be absulute.
 
     if isinstance(face_landmarks_df_or_series, pd.DataFrame):
         for _index, row in face_landmarks_df_or_series.iterrows():
-            face_viz(row, images_dir, out_images_dir, force, draw_bounding_box,
+            face_viz(row, images_dir, out_images_dir, force,
                      draw_inferred_box)
         return
 
