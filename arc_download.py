@@ -4,6 +4,7 @@ import io
 import os
 import shutil
 import urllib
+import urllib.request
 
 from absl import app
 from absl import flags
