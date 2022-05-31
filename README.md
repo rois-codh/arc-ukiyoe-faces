@@ -60,6 +60,10 @@ We provide annotations (facial landmarks) for ARC in `resources/arc_face.csv`. T
 python3 arc_download.py
 ```
 
+
+Note that a recent Protocol Buffer update (see https://github.com/rois-codh/arc-ukiyoe-faces/blob/main/arc_download.py) may break the ray packages that scripts in this repo uses.
+If it is the case, such issue could be mitigated by prefixing `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python `, e.g. running `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python python3 arc_download.py` 
+
 By default, it downloads images into `./scratch/arc_images/*.jpg` and copy annotations/metadata to `./scratch/arc_face.csv` and `./scratch/arc_metadata.csv`. Consult the output of `python3 arc_download.py --help` for how to change the default behavior.
 
 Please note that we **intentionally** did not include image data into the dataset to allow image providers to check which images are used and respect the original authors. We request not to create a derived dataset including image data for the user's convenience.
